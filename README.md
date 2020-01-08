@@ -4,6 +4,6 @@
 
 제가 이 프로젝트를 할 시 참고했던 블로그 링크입니다.
 
-[네이버 현재상영작 웹크롤링 방법]("https://m.blog.naver.com/cosmosjs/221294678259")
+"https://m.blog.naver.com/cosmosjs/221294678259"
 
 그리고 다이어리를 만들때 recyclerView를 사용해서 만들었는데 이 부분은 구글에 검색하여 여러 블로그의 도움을 받았습니다.
