@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="genre_array">
+        <item>선택</item>
+        <item>코미디</item>
+        <item>어드벤쳐</item>
+        <item>액션</item>
+        <item>드라마</item>
+        <item>서스펜스/스릴러</item>
+        <item>로맨틱 코미디</item>
+        <item>호러</item>
+        <item>뮤지컬</item>
+        <item>다큐멘터리</item>
+        <item>etc</item>
+
+    </string-array>
+    <string-array name="rating_array">
+        <item>선택</item>
+        <item>별점 높은 순</item>
+        <item>별점 낮은 순</item>
+    </string-array>
+</resources>

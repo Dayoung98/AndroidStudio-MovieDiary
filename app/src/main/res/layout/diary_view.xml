@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="제목"
+            android:id="@+id/diary_title"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/diary_imageView"
+            android:layout_below="@+id/diary_genre"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="내용"
+            android:id="@+id/diary_content"
+            android:layout_below="@id/diary_imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="쓴 날짜"
+            android:id="@+id/diary_write_date"
+            android:layout_below="@id/diary_title"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="장르"
+            android:id="@+id/diary_genre"
+            android:layout_toLeftOf="@id/diary_write_date"
+            android:layout_below="@id/diary_title"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

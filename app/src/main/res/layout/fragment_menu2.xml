@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/relativeLayout">
+
+        <EditText
+            android:id="@+id/editTitle"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="영화 제목 입력"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/border"
+            android:minLines="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="장르\n선택"
+            android:id="@+id/btnGenre"
+            android:layout_toRightOf="@id/getImage"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gallery_icon"
+            android:id="@+id/getImage"
+            android:layout_toRightOf="@id/editTitle"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/imageView"
+            android:layout_below="@+id/editTitle"
+            android:scaleType="centerInside"
+            android:layout_centerInParent="true"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="30"
+            android:hint="내용입력"
+            android:minLines="15"
+            android:id="@+id/editContent"
+            android:background="@drawable/border"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/imageView"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            android:max="5"
+            android:layout_below="@+id/editContent"
+            android:layout_marginTop="10dp"
+            android:rating="0"
+            android:stepSize="0.5"
+            android:numStars="5"
+            android:isIndicator="false"
+            android:layout_centerInParent="true"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="작성"
+            android:id="@+id/btnWrite"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_below="@+id/ratingBar" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageView_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/movieposter_icon"/>
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:paddingRight="8dp"
+            android:text="일기 제목"
+            android:textSize="20dp"
+            android:textColor="@color/title"
+            android:layout_toRightOf="@+id/imageView_img"/>
+
+        <TextView
+            android:id="@+id/textView_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="장르"
+            android:layout_below="@id/textView_title"
+            android:layout_toRightOf="@id/imageView_img"
+            android:layout_marginTop="16dp"
+            android:paddingRight="8dp"/>
+
+        <TextView
+            android:id="@+id/textView_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="별점"
+            android:layout_toRightOf="@id/imageView_img"
+            android:layout_below="@id/textView_genre"
+            android:layout_marginTop="16dp"
+            android:paddingRight="8dp"/>
+
+        <TextView
+            android:id="@+id/textView_sysdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="일기쓴 날짜"
+            android:layout_toRightOf="@id/textView_title"
+            android:layout_marginTop="16dp"
+            android:paddingRight="8dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

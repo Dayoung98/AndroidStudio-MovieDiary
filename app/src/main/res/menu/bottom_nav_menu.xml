@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_menu1"
+        android:icon="@drawable/diary_icon"
+        android:title="일기 목록" />
+
+    <item
+        android:id="@+id/navigation_menu2"
+        android:icon="@drawable/edit_icon"
+        android:title="일기 쓰기" />
+
+    <item
+        android:id="@+id/navigation_menu3"
+        android:icon="@drawable/movie_icon"
+        android:title="현재상영작" />
+
+</menu>
